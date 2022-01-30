@@ -74,6 +74,9 @@
 
 // hide some card in smaller screen
 @media screen and (max-width: 480px) {
+    .expanding-card {
+        height: 50vh;
+    }
     .expanding-card:nth-of-type(4),.expanding-card:nth-of-type(5){
         display: none;
     }
