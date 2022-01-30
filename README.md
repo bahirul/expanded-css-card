@@ -2,7 +2,11 @@
     Expanded Css Card
 </h1>
 <p align="center">
-    Fun css project for learn flex and gulp.
+    Fun project for learn javascript and css.
+</p>
+
+<p align="center">
+    In this project im learn about using flex, gulp and animation a litle bit.
 </p>
 
 ## ⚡️ Quick start
