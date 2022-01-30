@@ -75,13 +75,13 @@ function jsTask() {
 }
 
 function serveTask() {
-    browserSync.init({
-        server: "./public"
-    })
-
     jsTask()
     htmlTask()
     sassTask()
+
+    browserSync.init({
+        server: "./public"
+    })
 }
 
 exports.default = serveTask;
