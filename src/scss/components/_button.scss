@@ -1,4 +1,5 @@
 .button__container{
+    display: flex;
     text-align: center;
     padding: 4rem 0;
 }
@@ -10,4 +11,10 @@
     background-color: #1867fa;
     text-decoration: none;
     color: #ffffff;
+}
+
+@media screen and (max-width: 480px) {
+    .button__container{
+        flex-direction: column;
+    }
 }
